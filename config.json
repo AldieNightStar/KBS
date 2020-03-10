@@ -1,0 +1,8 @@
+{
+  "clickSound": "click1.wav",
+  "framePos": 800,
+  "clickVolume": 1,
+  "tapsPerTick": 1,
+  "tapSound": "tap1.wav",
+  "tapVolume": 0.05
+}
