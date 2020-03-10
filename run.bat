@@ -1,0 +1,1 @@
+@java -cp KBS.jar kbs.Main

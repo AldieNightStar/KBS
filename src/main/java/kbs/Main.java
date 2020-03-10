@@ -8,6 +8,9 @@ import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args) throws Exception {
+        // Present program itself
+        System.out.println("KBS by HaxiDenti");
+
         // Read config
         String json = new String(Files.readAllBytes(Paths.get("./config.json")), StandardCharsets.UTF_8);
         Config config = new Gson().fromJson(json, Config.class);
@@ -23,6 +26,7 @@ public class Main {
 
         // Start
         kbs.serve();
+        System.out.println("It's now working! Do not close this window until you done! :)");
 
         // Just to keep app in life :)
         while (true) {
